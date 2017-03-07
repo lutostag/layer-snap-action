@@ -1,8 +1,8 @@
-name: layer-snap-action
-summary: <Fill in summary here>
-maintainer: Ubuntu <Ubuntu@x-charm.lxd>
+name: snap-action
+summary: An action for snap management
+maintainer: gregory.lutostanski@canonical.com
 description: |
-  <Multi-line description here>
+  An aciton for snap management
 tags:
   - misc
 subordinate: false
