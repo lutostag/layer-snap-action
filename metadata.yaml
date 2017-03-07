@@ -1,0 +1,8 @@
+name: layer-snap-action
+summary: <Fill in summary here>
+maintainer: Ubuntu <Ubuntu@x-charm.lxd>
+description: |
+  <Multi-line description here>
+tags:
+  - misc
+subordinate: false
