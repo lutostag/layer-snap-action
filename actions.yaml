@@ -11,6 +11,9 @@ snap:
         channel:
           type: string
           default: stable
+        classic:
+          type: boolean
+          default: false
         devmode:
           type: boolean
           default: false
