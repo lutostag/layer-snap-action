@@ -1,15 +1,15 @@
 snap:
     description: Collect debug data
     params:
-	command:
-	  type: string
+        command:
+          type: string
           enum: [install, remove, refresh]
           default: install
-	  description: The snap command to perform.
-	name:
-	  type: string
-	channel:
-	  type: string
+          description: The snap command to perform.
+        name:
+          type: string
+        channel:
+          type: string
           default: stable
         devmode:
           type: boolean
@@ -20,6 +20,6 @@ snap:
         dangerous:
           type: boolean
           default: false
-	revision:
-	  type: string
+        revision:
+          type: string
     required: [name]
