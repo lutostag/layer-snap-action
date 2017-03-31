@@ -11,10 +11,7 @@ def main():
     kwargs = action_get()
     command = kwargs.pop('command', 'install')
     snapname = kwargs.pop('name', None)
-    if command == 'remove':
-        snap.remove(snapname)
-    else:
-        getattr(snap, command)(snapname, **kwargs)
+    getattr(snap, command)(snapname, **kwargs)
 
 
 if __name__ == '__main__':

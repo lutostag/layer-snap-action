@@ -1,5 +1,5 @@
 snap:
-    description: Collect debug data
+    description: Run a snap command to install/remove/refresh
     params:
         command:
           type: string
@@ -10,19 +10,15 @@ snap:
           type: string
         channel:
           type: string
-          default: stable
+          enum: [edge, beta, candidate, stable]
         classic:
           type: boolean
-          default: false
         devmode:
           type: boolean
-          default: false
         jailmode:
           type: boolean
-          default: false
         dangerous:
           type: boolean
-          default: false
         revision:
-          type: string
+          type: number
     required: [name]
